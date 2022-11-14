@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="69px" viewBox="0 0 225 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 11</title>
+    <defs>
+        <linearGradient x1="75.0226449%" y1="10.1505888%" x2="27.3890399%" y2="90.6702899%" id="linearGradient-1">
+            <stop stop-color="#FFDE69" offset="0%"></stop>
+            <stop stop-color="#FF2B1F" offset="18.3894231%"></stop>
+            <stop stop-color="#FD3A30" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Custom-Website-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VOCSO-HOME-15-Copy-2" transform="translate(-70.000000, -760.000000)">
+            <g id="Group-11" transform="translate(70.000000, 760.000000)">
+                <polygon id="Rectangle" fill="#FD3A30" points="81 13 194 13 191 34 78 34"></polygon>
+                <polygon id="Rectangle" fill="#25282C" points="81 35 194 35 191 59 80.9814453 59 77.527832 62.3486328 78 59"></polygon>
+                <text id="Estimate" font-family="Montserrat-SemiBold, Montserrat" font-size="20" font-weight="500" fill="#FFFFFF">
+                    <tspan x="86" y="54">ESTIMATE</tspan>
+                </text>
+                <text id="Get-Instant" font-family="Montserrat-SemiBold, Montserrat" font-size="18" font-weight="500" fill="#FFFFFF">
+                    <tspan x="85" y="30">Get Instant </tspan>
+                </text>
+                <circle id="Oval" fill="url(#linearGradient-1)" cx="34.5" cy="34.5" r="34.5"></circle>
+                <path d="M31.0275879,58.8083496 C37.1168648,56.5539507 41.0024029,55.0803251 42.684202,54.3874728 C50.4989675,51.1680165 56,43.4764258 56,34.5 C56,22.6258779 46.3741221,13 34.5,13 C22.6258779,13 13,22.6258779 13,34.5 C13,45.4522413 21.189235,54.4917843 31.7784648,55.8293889 C32.059928,55.8649426 31.8096357,56.8579295 31.0275879,58.8083496 Z" id="Oval" fill="#25282C"></path>
+                <text id="$" font-family="Montserrat-SemiBold, Montserrat" font-size="24" font-weight="700" fill="#FFFFFF">
+                    <tspan x="27" y="43">$</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

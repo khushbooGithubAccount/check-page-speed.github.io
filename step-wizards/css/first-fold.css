@@ -1,0 +1,255 @@
+
+/*--first fold css--*/
+.home-header .mobile-navigation{display:none;background:var(--white-color);visibility:hidden;opacity:0;}
+
+@media only screen and (max-width: 1560px)
+.navbar-main {
+    display: none;
+	visibility:hidden;
+	opacity:0;
+}
+
+.grow-banner{position:relative}
+
+.grow-banner:before{width:40rem;height:40rem;background:var(--light-pink-brown);border-radius:100%;position:absolute;content:"";left:-32rem;bottom:0;top:30rem;animation:circle 10s linear 0s infinite alternate;-webkit-animation:circle 10s linear 0s infinite alternate;transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out}
+.grow-banner h1 {
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 8rem;
+    margin-top: 15rem;
+    max-width: 63rem;
+    color: var(--black-color);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.grow-banner p {
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    max-width: 77rem;
+    margin: 2.3rem 0 6rem 0;
+    color: var(--black-color);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.getquote-dropdown {
+    margin-bottom: 27rem;
+    display: inline-block;
+}
+
+.getquote-dropdown .bootstrap-select {
+    height: 5.8rem;
+    width: 39.4rem!important;
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+.getquote-dropdown .bootstrap-select .dropdown-toggle {
+    height: 100%;
+    line-height: 5.3rem;
+    padding: 0 2.5rem;
+    background: var(--white-color)!important;
+    border: 0;
+    border: .2rem solid var(--accent-orange)!important;
+    border-right: 0!important;
+}
+.getquote-dropdown .filter-option-inner-inner {
+    font-size: 1.8rem;
+    color: var(--accent-orange);
+    font-weight: 500;
+}
+.getquote-dropdown .bootstrap-select .dropdown-toggle::after {
+    background: url(../images/orange-down-arrow.svg);
+    appearance: none;
+    width: 1.8rem;
+    height: 1.2rem;
+    vertical-align: -.3rem;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    background-position: center center;
+}
+.getquote-dropdown .dropdown-menu.show {
+    font-size: 1.8rem;
+    padding: 0 0!important;
+    border: .2rem solid var(--accent-orange)!important;
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+    top: -.3rem!important;
+    background: var(--accent-orange);
+}
+.getquote-dropdown .getquote-btn {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white-color-text-both);
+    border: 0;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    padding: 1rem 4.4rem 1rem 2rem;
+    background: var(--accent-orange-bg) url(../images/white-next-arrow.svg) no-repeat;
+    background-position: 89% center;
+    transition: all .3s;
+}
+
+.banner-women-bg {
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 51%;
+    float: right;
+    bottom: 0;
+}
+.grow-banner figure {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.grow-banner figure {
+    margin: 0;
+    width: 100%;
+}
+.darkmode .grow-banner figure:before {
+    background: var(--accent-green-2);
+}
+.grow-banner figure:before {
+    width: 84.2rem;
+    height: 84.2rem;
+    background: var(--accent-light-blue);
+    border-radius: 100%;
+    position: absolute;
+    content: "";
+    z-index: -1;
+    bottom: -22rem;
+    right: 0;
+    animation: circle2 10s linear 0s infinite alternate;
+    -webkit-animation: circle2 10s linear 0s infinite alternate;
+}
+.carousel-banner-vertical {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    bottom: -5rem;
+    left: -10rem;
+    width: 42rem;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: pan-y;
+    tap-highlight-color: transparent;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+    transform: translate3d(0,0,0);
+}
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0 1rem;
+}
+.hero__title [aria-hidden] {
+    transition: 1s;
+}
+.hero__title .slick-slide {
+    overflow: hidden;
+    padding: 2rem 4rem;
+    opacity: .2;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-slide {
+    width: 29.8rem!important;
+    background-color: var(--white-color-text-both);
+    border-radius: 100rem;
+    margin-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+    height: 11.1rem;
+    box-shadow: -1rem 1rem 1.4rem -0.3rem rgb(0 0 0 / 9%);
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+}
+.title {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--black-color-text-both);
+    margin-bottom: 0;
+}
+.title span {
+    font-size: 1.6rem;
+    color: #6b6b6b;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+}
+/*--first fold end--*/
+
+.home-header ul li.custom-dropdown:hover .custom-dropdown-menu {
+    display: block;
+    max-height: unset;
+    width: 100%;
+    background: var(--white-color);
+    padding: 5rem 3vw;
+    position: absolute;
+    z-index: 9;
+    transition: all .1s ease-in 0s;
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+    top: 7.9rem;
+    border: 0;
+}
+
+.headermenu-box {
+    background: #fd3a30;
+    height: 100%;
+    border-radius: 1rem;
+    width: 80%;
+    color: #fff;
+    font-size: 7rem;
+    padding: 4rem;
+}
+.home-header ul li.custom-dropdown .custom-dropdown-menu h3 {
+    font-size: 1.6rem;
+    color: var(--black-color);
+    font-weight: 500;
+}
+.home-header ul.navbar-nav li {
+    margin: 0 2rem;
+}
+.custom-dropdown-menu ul li {
+    list-style-type: none;
+    margin: 3rem 0!important;
+}
+.home-header ul.navbar-nav li a {
+    padding: 3.1rem 0!important;
+    color: var(--black-color);
+    font-size: 1.6rem;
+}
+.custom-dropdown-menu ul li a {
+    padding: 0!important;
+}

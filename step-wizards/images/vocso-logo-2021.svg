@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="209px" height="97px" viewBox="0 0 209 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.227451 0 0 0 0 0.188235 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="New-Home-Page-Drafts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VOCSO-HOME-Copy-13" transform="translate(-29.000000, -8.000000)">
+            <g id="Group-2" transform="translate(29.000000, 8.000000)">
+                <text id="vocso" font-family="PTMono-Bold, PT Mono" font-size="52" font-weight="bold" letter-spacing="-2.97142857" fill="#000000">
+                    <tspan x="66.4285714" y="46">vocso</tspan>
+                </text>
+                <g filter="url(#filter-1)" id="Group">
+                    <g transform="translate(0.000000, 4.075591)">
+                        <polygon id="Triangle" fill="#FD3A30" transform="translate(63.109756, 9.733126) scale(-1, -1) translate(-63.109756, -9.733126) " points="66.1517958 7.08904311 70.7317073 12.3430295 55.4878049 12.3772079"></polygon>
+                        <polygon id="Rectangle" fill="#FD3A30" transform="translate(37.569693, 24.314639) rotate(-28.000000) translate(-37.569693, -24.314639) " points="29.9477419 2.02491655 42.9872484 8.94576694 45.1916443 38.9147811 32.3274013 46.6043607"></polygon>
+                        <polygon id="Rectangle" fill="#FD3A30" transform="translate(54.905479, 13.750795) scale(-1, 1) rotate(-28.000000) translate(-54.905479, -13.750795) " points="47.2835278 2.22971978 60.8730897 9.44251765 62.5274302 25.2718699 48.0883382 17.8707837"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
